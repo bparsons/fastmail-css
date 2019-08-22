@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Fastmail CSS Adjustments",
+  "version": "0.1.1",
+  "description": "Change the base font of the fastmail.com webmail interface",
+  "author": "Brian Parsons",
+ 
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": [ "https://www.fastmail.com/mail/*",
+                 "https://www.fastmail.com/calendar/*" 
+               ]
+  }]
+ 
+}
