@@ -9,7 +9,8 @@
   "content_scripts": [{
     "css": ["styles.css"],
     "matches": [ "https://www.fastmail.com/mail/*",
-                 "https://www.fastmail.com/calendar/*" 
+                 "https://www.fastmail.com/calendar/*",
+                 "https://www.fastmail.com/contacts/*"
                ]
   }]
  
